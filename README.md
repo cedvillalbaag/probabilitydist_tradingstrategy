@@ -37,6 +37,9 @@ Parameter Tuning: Distributions can help optimize a strategy's parameters (e.g.,
 #### - Normal (Gaussian) Distribution:   
 Often used as a starting point for modeling asset returns, although actual returns are known to have "fat tails" (more extreme events than a normal distribution predicts).
 
+![Imagen](https://github.com/cedvillalbaag/probabilitydist_tradingstrategy/blob/main/Tesla_Probability%20Distribution%20with%20Density%20Curve_Plot.png)
+
+
 #### - Log-Normal Distribution:   
 Commonly used to model asset prices, since prices cannot be negative and their returns are usually multiplicative. If log-returns are normal, prices are log-normal.
 
@@ -48,3 +51,4 @@ Can be used to model discrete outcomes, such as the probability of a price risin
 
 #### - Other distributions:   
 There are many others, such as Pareto distributions (for tail events), Lévy distributions (for processes with jumps), etc., which may be more appropriate for certain aspects of market behavior.
+
